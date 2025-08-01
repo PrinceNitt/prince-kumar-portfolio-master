@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://princekumar.github.io/prince-kumar-portfolio",
+  "homepage": "https://princenitt.github.io/prince-kumar-portfolio-master",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",

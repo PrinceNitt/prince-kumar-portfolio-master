@@ -39,9 +39,11 @@ const Wrapper = styled.div`
 
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+
   return (
     <ThemeProvider theme={darkTheme}>
-      <BrowserRouter>
+      {/* ✅ Added basename for GitHub Pages fix */}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Body>
           <StarCanvas />
@@ -58,7 +60,6 @@ function App() {
                 <Contact />
               </Wrapper>
               <Footer />
-
               {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}
