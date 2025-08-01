@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/prince-kumar-portfolio/static/css/main.5b422b20.css",
+    "main.js": "/prince-kumar-portfolio/static/js/main.7c832443.js",
+    "static/media/HeroImage.jpg": "/prince-kumar-portfolio/static/media/HeroImage.ec6014708b772992221d.jpg",
+    "index.html": "/prince-kumar-portfolio/index.html",
+    "main.5b422b20.css.map": "/prince-kumar-portfolio/static/css/main.5b422b20.css.map",
+    "main.7c832443.js.map": "/prince-kumar-portfolio/static/js/main.7c832443.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b422b20.css",
+    "static/js/main.7c832443.js"
+  ]
+}
